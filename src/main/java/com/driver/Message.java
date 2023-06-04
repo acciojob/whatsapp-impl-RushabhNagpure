@@ -14,8 +14,7 @@ public class Message {
     public Message(int id, String content) {
         this.id = id;
         this.content = content;
-        Date date = new Date();
-        this.timestamp = date;
+
     }
 
     public int getId() {
